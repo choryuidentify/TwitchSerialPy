@@ -44,4 +44,4 @@ class TwitchCrane(pydle.Client):
 if __name__ == '__main__':
     client = TwitchCrane('TwitchCrane')
     client.set_serial_device("COM1")
-    client.run('irc.chat.twitch.tv', port=6697, tls=True, tls_verify=False, password="***REMOVED***")
+    client.run('irc.chat.twitch.tv', port=6697, tls=True, tls_verify=False, password="REMOVED")
